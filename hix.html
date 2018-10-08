@@ -1,0 +1,12 @@
+<script type="text/javascript">
+	function ValidateNumberPhone(str) {
+		regex = /^[(][4-8]{2}[)][-]{1}[(][0]{1}[1-9]{9}[)]$/;
+		if (regex.test(str)) {
+			console.log("ok");
+		} else {
+			console.log("Not ok");
+		}
+	}
+	ValidateNumberPhone("(84)-(0978489648)");
+	ValidateNumberPhone("(a8)-(22222222)");
+</script>
